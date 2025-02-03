@@ -133,7 +133,7 @@ get_pivot_smart(type_t *arr, const arrsize_t left, const arrsize_t right)
                 arr, median, left, right);
     }
     else if (median != smallest && median != largest) {
-        // We have a normal sample; use it's median
+        // We have a normal sample; use its median
         return pivot_results<type_t>(median);
     }
     else if (median == smallest) {
